@@ -1,5 +1,53 @@
-* {
+/* * {
   box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
+} */
+
+:root {
+  --purple: rgb(178, 55, 178);
+  --yellow: rgb(255, 255, 140);
+  --hover: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "Dancing Script", cursive;
+  background-color: var(--yellow);
+}
+
+h1 {
+  font-size: 100px;
+  color: var(--purple);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px 0 5px 0;
+  background-color: var(--purple);
+}
+
+.nav li {
+  /* margin: 0 60px 0 60px; */
+  color: var(--yellow);
+}
+
+.nav li:hover {
+  color: var(--hover);
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+img {
+  width: 20%;
+  height: auto;
+  margin: 5px;
 }
